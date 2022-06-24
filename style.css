@@ -1,36 +1,38 @@
-h1{
+h1 {
     font-size: 3em;
 }
 
-img{
+img {
     border-radius: 7px;
 }
 
-h6{
+h6 {
     margin-bottom: 0;
     padding-right: 116px;
 }
 
-.logo{
+.logo {
     margin-top: 7px;
     width: 200px;
 }
 
-.nav-head{
+.nav-head {
     margin-right: 150px;
     margin-top: 10px;
 }
-.navbar-nav > li{
-    margin-left:25px;
-    margin-right:0px;
+
+.navbar-nav>li {
+    margin-left: 25px;
+    margin-right: 0px;
 }
-.nav-link{
+
+.nav-link {
     font-weight: 700;
     font-size: larger;
     color: white;
 }
 
-.home{
+.home {
     background-image: url('images/1st.jpg');
     height: 980px;
     width: auto;
@@ -39,44 +41,50 @@ h6{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.myname{
+
+.myname {
     margin-top: 500px;
     margin-left: 200px;
     font-weight: 700;
     font-size: 3em;
 }
-.sub-heading{
+
+.sub-heading {
     margin-left: 200px;
     font-weight: 900;
     font-size: 2em;
     background-color: orange;
-    max-width: fit-content; 
+    max-width: fit-content;
     padding: 5px;
-    border-radius: 2px;  
+    border-radius: 2px;
 }
+
 .section-heading {
     font-size: 3rem;
     line-height: 1.5;
 }
-#gallery{
+
+#gallery {
     padding: 100px;
     background-color: lightyellow;
 }
 
 .gallery-section {
     text-align: center;
-  }
-.gallery-head{
+}
+
+.gallery-head {
     margin-right: 21%;
+    margin-left: 21%;
     margin-top: 10px;
 }
 
-.aboutme{
+.aboutme {
     background-color: lightgray;
     padding: 7%;
 }
 
-.black{
+.black {
     background-color: black;
     height: 525px;
     width: 300px;
@@ -84,7 +92,8 @@ h6{
     position: absolute;
     left: 0px;
 }
-.myimage{
+
+.myimage {
     height: 525px;
     width: 300px;
     margin-left: 15%;
@@ -92,32 +101,74 @@ h6{
     left: 120px;
     top: 25px;
 }
-.infoimage{
+
+.infoimage {
     max-width: 450px;
     padding-top: 0px;
     margin-right: 100px;
 }
-.myinfo{
+
+.myinfo {
     font-weight: 900;
     font-size: 1.5rem;
     padding-left: 70px;
     padding-top: 50px;
 }
-.info-para{
+
+.info-para {
     font-weight: 500;
 }
-.who-am-i{
+
+.who-am-i {
     margin-bottom: 0px;
     padding-left: 6px;
 }
-.hello{
+
+.hello {
     font-size: 2em;
 }
-.row{
+
+.row {
     padding-bottom: 65px;
 }
 
-.service-heading{
+.services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(158, 221, 234);
+}
+
+.card{
+    width: 10%;
+}
+
+.service-card {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.card-hghlght {
+    margin: 0 10% 0 10%;
+    pointer-events: auto;
+    transform: scale(1);
+    transition: all 0.4s;
+}
+
+.card-hghlght:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.service-card:hover .card-hghlght:not(:hover) {
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+/* .service-heading{
     font-size: 2em;
     font-weight: 700;
 }
@@ -135,57 +186,60 @@ h6{
     margin-top: 50px;
     color: white;
     font-size: 1.5rem;
-}
+} */
 
-.marketplace-heading{
+.marketplace-heading {
     font-size: 2em;
     font-weight: 700;
 }
 
-.marketplace{
+.marketplace {
     padding-top: 80px;
     background-color: rgb(204, 234, 158);
 }
 
-.marketplace-items{
+.marketplace-items {
     margin-top: 80px;
 }
 
-.marketplace-content{
+.marketplace-content {
     margin-top: 50px;
     color: white;
     font-size: 1.5rem;
 }
 
-.blog-content{
+.blog-content {
     padding: 10px;
 }
-.blog-heading{
+
+.blog-heading {
     /* font-size: 3em; */
     margin-top: 0;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     padding: 14px 5px 11px 5px;
     font-size: 1.25rem;
     background-color: yellow;
     border: 0;
 }
 
-#email{
+#email {
     height: 56px;
     font-size: 1.5em;
     background-color: rgb(249, 247, 247);
     border: 0;
 }
-.subscribe{
+
+.subscribe {
     padding: 40px;
 }
 
-#blog{
+#blog {
     padding: 80px;
 }
 
-#contact{
+#contact {
     padding: 80px;
     text-align: center;
     background-color: azure;
@@ -194,14 +248,14 @@ h6{
 .social-icon {
     margin: 20px 10px;
     text-decoration: none;
-  }
+}
 
-.contact-detail{
+.contact-detail {
     margin-top: 50px;
 }
 
-@media (min-width: 993px) and (max-width: 1085px){
-    .nav-components{
+@media (min-width: 993px) and (max-width: 1085px) {
+    .nav-components {
         width: 70%;
         font-size: 0.75rem;
         margin: 0px;
