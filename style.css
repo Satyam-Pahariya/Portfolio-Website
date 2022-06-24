@@ -140,10 +140,12 @@ h6 {
 
 .card{
     width: 10%;
+    border-radius: 7px;
 }
 
 .service-card {
     width: fit-content;
+    padding-top: 5%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
