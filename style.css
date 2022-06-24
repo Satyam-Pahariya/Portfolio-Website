@@ -1,0 +1,201 @@
+h1{
+    font-size: 3em;
+}
+
+img{
+    border-radius: 7px;
+}
+
+h6{
+    margin-bottom: 0;
+    padding-right: 116px;
+}
+
+.logo{
+    margin-top: 7px;
+    width: 200px;
+}
+
+.nav-head{
+    margin-right: 150px;
+    margin-top: 10px;
+}
+.navbar-nav > li{
+    margin-left:25px;
+    margin-right:25px;
+}
+.nav-link{
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+}
+
+.home{
+    background-image: url('images/1st.jpg');
+    height: 980px;
+    width: auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.myname{
+    margin-top: 500px;
+    margin-left: 200px;
+    font-weight: 700;
+    font-size: 3em;
+}
+.sub-heading{
+    margin-left: 200px;
+    font-weight: 900;
+    font-size: 2em;
+    background-color: orange;
+    max-width: fit-content; 
+    padding: 5px;
+    border-radius: 2px;  
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#gallery{
+    padding: 100px;
+    background-color: lightyellow;
+}
+
+.gallery-section {
+    text-align: center;
+  }
+.gallery-head{
+    margin-right: 21%;
+    margin-top: 10px;
+}
+
+.aboutme{
+    background-color: lightgray;
+    padding: 7%;
+}
+
+.black{
+    background-color: black;
+    height: 525px;
+    width: 300px;
+    margin-left: 17%;
+    position: absolute;
+    left: 0px;
+}
+.myimage{
+    height: 525px;
+    width: 300px;
+    margin-left: 15%;
+    position: relative;
+    left: 120px;
+    top: 25px;
+}
+.infoimage{
+    max-width: 450px;
+    padding-top: 0px;
+    margin-right: 100px;
+}
+.myinfo{
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.info-para{
+    font-weight: 500;
+}
+.who-am-i{
+    margin-bottom: 0px;
+    padding-left: 6px;
+}
+.hello{
+    font-size: 2em;
+}
+.row{
+    padding-bottom: 65px;
+}
+
+.service-heading{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.services{
+    padding-top: 80px;
+    background-color: rgb(158, 221, 234);
+}
+
+.services-items{
+    margin-top: 80px;
+}
+
+.service-content{
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.marketplace-heading{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.marketplace{
+    padding-top: 80px;
+    background-color: rgb(204, 234, 158);
+}
+
+.marketplace-items{
+    margin-top: 80px;
+}
+
+.marketplace-content{
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.blog-content{
+    padding: 10px;
+}
+.blog-heading{
+    /* font-size: 3em; */
+    margin-top: 0;
+}
+.subscribe-btn{
+    padding: 14px 5px 11px 5px;
+    font-size: 1.25rem;
+    background-color: yellow;
+    border: 0;
+}
+
+#email{
+    height: 56px;
+    font-size: 1.5em;
+    background-color: rgb(249, 247, 247);
+    border: 0;
+}
+.subscribe{
+    padding: 40px;
+}
+
+#blog{
+    padding: 80px;
+}
+
+#contact{
+    padding: 80px;
+    text-align: center;
+    background-color: azure;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    text-decoration: none;
+  }
+
+.contact-detail{
+    margin-top: 50px;
+}
