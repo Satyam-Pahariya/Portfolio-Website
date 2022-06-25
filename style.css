@@ -3,7 +3,7 @@ h1 {
 }
 
 img {
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
 h6 {
@@ -138,12 +138,8 @@ h6 {
     background-color: rgb(158, 221, 234);
 }
 
-.card{
-    width: 10%;
-    border-radius: 7px;
-}
 
-.service-card {
+.service-card, .marketplace-card {
     width: fit-content;
     padding-top: 5%;
     display: flex;
@@ -154,10 +150,17 @@ h6 {
 }
 
 .card-hghlght {
-    margin: 0 10% 0 10%;
+    margin: 0 9% 0 9%;
     pointer-events: auto;
     transform: scale(1);
     transition: all 0.4s;
+}
+
+.card{
+    /* padding: 1.5em .5em .5em; */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
 .card-hghlght:hover {
@@ -197,10 +200,11 @@ h6 {
 
 .marketplace {
     padding-top: 80px;
+    padding-bottom: 80px;
     background-color: rgb(204, 234, 158);
 }
 
-.marketplace-items {
+/* .marketplace-items {
     margin-top: 80px;
 }
 
@@ -208,7 +212,7 @@ h6 {
     margin-top: 50px;
     color: white;
     font-size: 1.5rem;
-}
+} */
 
 .blog-content {
     padding: 10px;
