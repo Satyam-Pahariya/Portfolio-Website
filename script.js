@@ -6,12 +6,12 @@ $(document).ready(function() {
         var scrollTop = $(window).scrollTop();
 
         if (scrollTop >=40) {
-            $('.navbar').addClass('affix');
-            $('.navbar').addClass('bg-dark');
+            $('.navbar-scroll').addClass('affix');
+            $('.navbar-scroll').addClass('bg-dark');
         } else {
-            $('.navbar').removeClass('solid-nav');
-            $('.navbar').removeClass('affix');
-            $('.navbar').removeClass('bg-dark');
+            $('.navbar-scroll').removeClass('solid-nav');
+            $('.navbar-scroll').removeClass('affix');
+            $('.navbar-scroll').removeClass('bg-dark');
         }
 
     });

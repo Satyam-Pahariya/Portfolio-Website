@@ -3,7 +3,7 @@ h1 {
 }
 
 img {
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 h6 {
@@ -29,25 +29,29 @@ h6 {
 }
 
 .nav-link {
-    font-weight: 700;
-    font-size: larger;
+    font-weight: 400;
+    /* font-size: larger; */
     color: white;
 }
 
-.navbar.affix.bg-dark {
-    background: whitesmoke !important;
+.navbar-scroll.affix.bg-dark {
+    /* background: whitesmoke !important;
+    opacity: 0.7;
+    filter: alpha(opacity=50); */
+    -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
-.navbar.affix-top {
+.navbar-scroll.affix-top {
     padding-top: 0.5rem;
     padding-bottom: 1.6rem;
     background: transparent !important;
 }
-.navbar.affix {
+.navbar-scroll.affix {
     padding-top: 0.5rem;
     padding-bottom: 0.8rem;
-    border-bottom: 1px solid #133c65;
+    /* border-bottom: 1px solid #133c65; */
 }
-.navbar {
+.navbar-scroll {
     -webkit-transition: all, 0.4s;
     transition: all, 0.4s;
 }
@@ -92,13 +96,18 @@ h6 {
 
 #gallery {
     padding: 100px;
-    background-color: lightyellow;
+    height: 700px;
+    background-color: #f1fcfd;
 }
 
 .gallery-section {
     text-align: center;
 }
-
+.gallery-navbar{
+    margin-left: 83px;
+    font-size: larger;
+    font-weight: 700;
+}
 .gallery-head {
     margin-right: 21%;
     margin-left: 21%;
@@ -106,7 +115,7 @@ h6 {
 }
 
 .aboutme {
-    background-color: lightgray;
+    background-color: #f1fcfd;
     padding: 7%;
 }
 
@@ -161,7 +170,7 @@ h6 {
 .services {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: rgb(158, 221, 234);
+    background-color:#e0f2fa;
 }
 
 
@@ -187,11 +196,15 @@ h6 {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    padding: 0px;
 }
 
 .card-hghlght:hover {
     opacity: 1;
     transform: scale(1.02);
+}
+.card-img-top{
+    border-radius: 10px;
 }
 
 .service-card:hover .card-hghlght:not(:hover) {
@@ -227,7 +240,7 @@ h6 {
 .marketplace {
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: rgb(204, 234, 158);
+    background-color: #f1fcfd;
 }
 
 /* .marketplace-items {
@@ -239,7 +252,9 @@ h6 {
     color: white;
     font-size: 1.5rem;
 } */
-
+.blog{
+    background-color: #f2f9fa;
+}
 .blog-content {
     padding: 10px;
 }
@@ -259,7 +274,7 @@ h6 {
 #email {
     height: 56px;
     font-size: 1.5em;
-    background-color: rgb(249, 247, 247);
+    background-color: white(249, 247, 247);
     border: 0;
 }
 
@@ -274,17 +289,31 @@ h6 {
 #contact {
     padding: 80px;
     text-align: center;
-    background-color: azure;
+    background-color: #f2f9fa;
 }
 
 .social-icon {
-    margin: 20px 10px;
     text-decoration: none;
+}
+
+.fa-instagram{
+    color: #C13584;
+}
+
+.fa-twitter{
+    color: #08a0e9;
+}
+.fa-facebook{
+    color: #1778F2;
+}
+.social{
+    margin : 20px 20px;   
 }
 
 .contact-detail {
     margin-top: 50px;
 }
+
 
 @media (min-width: 993px) and (max-width: 1085px) {
     .nav-components {
