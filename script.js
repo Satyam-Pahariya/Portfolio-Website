@@ -16,3 +16,21 @@ $(document).ready(function() {
 
     });
 });
+
+var triggerEl = document.querySelector('#myList a[href="#all"]')
+bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+
+var triggerFirstTabEl = document.querySelector('#myList li:first-child a')
+bootstrap.Tab.getInstance(triggerFirstTabEl).show()
+
+var triggerTabList = [].slice.call(document.querySelectorAll('#myList a'))
+triggerTabList.forEach(function (triggerEl) {
+  var tabTrigger = new bootstrap.Tab(triggerEl)
+
+  triggerEl.addEventListener('click', function (event) {
+    event.preventDefault()
+    tabTrigger.show()
+  })
+})
+
+ // Select first tab
